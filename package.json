@@ -1,0 +1,36 @@
+{
+  "name": "js-deobfuscator",
+  "version": "1.0.0",
+  "description": "Static JS deobfuscator - safe AST transforms for malware/dropped scripts (no execution)",
+  "main": "lib/index.js",
+  "bin": {
+    "js-deobfuscator": "bin/js-deobfuscator.js"
+  },
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "keywords": [
+    "deobfuscation",
+    "javascript",
+    "ast",
+    "babel",
+    "security"
+  ],
+  "author": "Generated",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0",
+    "@babel/generator": "^7.23.0",
+    "@babel/types": "^7.23.0",
+    "commander": "^10.0.0",
+    "prettier": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^4.3.8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
